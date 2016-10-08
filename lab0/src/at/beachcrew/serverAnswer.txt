@@ -1,0 +1,6 @@
+Connection to server established
+Message send to server, waiting for answer...
+Server: Received login command for 1229026. Please be patient while we check your registration...
+Server: Your registration was successful! Your DSLab account is d1229026 and your port range is 11270 - 11279
+
+Process finished with exit code 0
