@@ -1,0 +1,23 @@
+Lab 0
+
+Important: This assignment is due until 13.10.2016 18:00 and is mandatory for the registration process (i.e., if you do not solve this  in time, you cannot continue with the course!).
+
+Lab 0 represents a simple task to verify your basic Java programming and networking knowledge,
+which is prerequisite for this course. This task can be solved in several ways. However, we recommend that you implement a rudimentary Java client for this part as you will be able to extend this client for Lab 1.
+
+For this part of the lab, all you have to do is log into our registration server running on host dslab.duckdns.org at TCP port 9000 by sending it a command "!login <immatriculation-number> <numeric-TUWEL-userId>".
+
+E.g., !login 1234567 11111
+
+To find out your numeric TUWEL user ID, log in to TUWEL and hover over the profile picture next to your name to get the "id" parameter (illustrated in the figure below).
+
+After a successful log in, the server will respond with 2 messages on the TCP connection: First, with: "Received login command for '<immatriculation-number>'.
+Please be patient while we check your registration...". Then after a few seconds, when you receive  "Your registration was successful!
+Your DSLab account is dXXXXXXX and your port range is 1xxx0-1xxx9" you are finally fully registered for the course and will be rewarded with 3 points.
+Please verify this in TUWEL (Grading item - Lab 0) - you are not registered unless you have received the 3 points for Lab 0! Next to the 3 points,
+the server also added a feedback for the grading item, containing your user-account and your port-range for the DSLab environment.
+In case the server sends the "Your registration was successful...." message and you do not receive 3 points, please contact us per email!
+It should be noted that you do not have to submit your solution for Lab 0 in TUWEL as it is necessary in the other labs including Lab 1.
+You just have to implement and invoke your client so that you are able to log into the registration server.
+
+Please also note that any further functionality than logging in is disabled on the registration server.
